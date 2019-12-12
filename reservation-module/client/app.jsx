@@ -207,7 +207,7 @@ const ReservationBlock = styled.div`
   width: 305px;
 `
 
-class App extends React.Component {
+class ReservationModule extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -464,4 +464,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('ReservationModule'));
+ReactDOM.render(<ReservationModule />, document.getElementById('ReservationModule'));
