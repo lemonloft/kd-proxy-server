@@ -1,0 +1,33 @@
+<head>
+
+</head>
+<body>
+  <div id="PhotoGalleryModule"></div>
+  <div id="ReservationsModule"></div>
+  <div id="ReviewsModule"></div>
+  <div id="SuggestionsModule"></div>
+  <script src="/lib/react.development.js"></script>
+  <script src="/lib/react-dom.development.js"></script>
+  <script src="http://localhost:3001/bundle.js"></script>
+  <script src="http://localhost:3002/bundle.js"></script>
+  <script src="http://localhost:3003/bundle.js"></script>
+  <script src="http://localhost:3004/bundle.js"></script>
+  <script>
+    ReactDOM.render(
+      React.createElement('PhotoGallery'),
+      document.getElementById('PhotoGallery')
+    );
+    ReactDOM.render(
+      React.createElement('Reservations'),
+      document.getElementById('Reservations')
+    );
+    ReactDOM.render(
+      React.createElement('Reviews'),
+      document.getElementById('Reviews')
+    );
+    ReactDOM.render(
+      React.createElement('Suggestions'),
+      document.getElementById('Suggestions')
+    );
+  </script>
+</body>
